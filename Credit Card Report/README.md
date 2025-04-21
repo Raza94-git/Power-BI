@@ -36,9 +36,3 @@ The report supports decision-makers by highlighting **week-over-week changes** a
 - **DAX (Data Analysis Expressions)**: For creating dynamic metrics like WoW growth
 - **Power BI Desktop**: For data modeling and dashboard development
 
-
-Previous_week_Revenue = CALCULATE(
-    SUM(Revenue),
-    FILTER(ALL(cc_detail), week_num2 = MAX(week_num2)-1)
-)
-
